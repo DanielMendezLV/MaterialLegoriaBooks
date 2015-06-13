@@ -31,6 +31,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".Activity.SearchActivity"
+            android:label="Buscar..." >
+        </activity>
+        <activity
+            android:name=".Activity.HelpActivity"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name=".Activity.MarkupActivity"
+            android:label="@string/title_activity_markup" >
+        </activity>
+        <activity
+            android:name=".Activity.ConfigActivity"
+            android:label="@string/title_activity_config" >
+        </activity>
+        <activity
+            android:name=".Activity.AboutUsActivity"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+
     </application>
 
 </manifest>
